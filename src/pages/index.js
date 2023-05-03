@@ -1,20 +1,24 @@
 import * as React from "react"
-import { Wrapper } from "../components/styled/Wrapper"
+import Hero from "../components/hero_banner/Hero"
+import { Heading } from "../components/styled/Headings"
 
-const styles = {
-  justifyContent: 'center',
-  alignItems: 'center',
-}
 const IndexPage = () => {
+  console.log(Heading.xl)
   return (
     <main>
-      <Wrapper display='flex' style={styles}>
-        Empowering Your Business to Succeed with  Tech-Driven Solutions
-        <button>Services</button>
-      </Wrapper>
+      <Hero 
+        display='flex' 
+        fd='column' 
+        height='600px'
+        color='#eeeeee'
+      >
+        <Heading.l width="20%">Empowering Your Business to Succeed with  Tech-Driven Solutions</Heading.l>
+        <button>About Us</button>
+      </Hero>
     </main>
   )
 }
+
 
 export default IndexPage
 
