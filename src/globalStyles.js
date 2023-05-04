@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Lato', sans-serif;
     position: relative;
     offset: 0;
+    user-select: none;
   }
 
   html {
