@@ -5,25 +5,40 @@ export const Heading = {
         font-size: ${props => props.fsize || "5rem"};
         width: ${props => props.width};
         color: ${props => props.color};
+        text-align: ${props => props.align};
+        line-height: ${props => props.line};
+        font-weight: ${props => props.bold ? 700 : null};
     `,
     l: styled.p`
         font-size: ${props => props.fsize || "3.5rem"};
         width: ${props => props.width};
         color: ${props => props.color};
+        text-align: ${props => props.align};
+        line-height: ${props => props.line};
+        font-weight: ${props => props.bold ? 700 : null};
     `,
     md: styled.p`
         font-size: ${props => props.fsize || "2.5rem"};
         width: ${props => props.width};
         color: ${props => props.color};
+        text-align: ${props => props.align};
+        line-height: ${props => props.line};
+        font-weight: ${props => props.bold ? 700 : null};
     `,
     sm: styled.p`
         font-size: ${props => props.fsize || "1.5rem"};
         width: ${props => props.width};
         color: ${props => props.color};
+        text-align: ${props => props.align};
+        line-height: ${props => props.line};
+        font-weight: ${props => props.bold ? 700 : null};
     `,
     xsm: styled.p`
         font-size: ${props => props.fsize || ".8rem"};
         width: ${props => props.width};
         color: ${props => props.color};
+        text-align: ${props => props.align};
+        line-height: ${props => props.line};
+        font-weight: ${props => props.bold ? 700 : null};
     `
 }
