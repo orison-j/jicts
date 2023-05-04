@@ -1,7 +1,7 @@
 import React from 'react'
 import { Wrapper } from '../elements/Wrapper'
 import HeroImage from '../../images/home-hero.png'
-import Navigation from '../Navigation/Navigation';
+import Navigation from '../navigation/Navigation';
 
 function Hero (props) {
   return (
