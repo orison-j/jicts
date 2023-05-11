@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 import Logo from '../../images/logo.png'
 import caret from '../../images/caretIcon.png'
-import { Wrapper } from '../elements/Wrapper'
+import { Wrapper } from '../elements/Wrappers'
 
 
 const Navigation = props => {
@@ -24,7 +24,7 @@ const Navigation = props => {
         }
   return (
     <Wrapper as='navigation' p='20px 0' width = '100%' display='flex' style={navStyles} {...props}>
-        <div style={{display: 'flex', alignItems:'center', width: '25%', padding:'10px 10%' }}>
+        <div style={{display: 'flex', justifyContent:'flex-end', width: '20%', padding:'10px' }}>
             <img
                 src = {Logo}
                 alt = "jehori ict logo"
@@ -32,7 +32,7 @@ const Navigation = props => {
                 height = {50}
             />
         </div>
-        <nav style={{ padding:'10px 10%' }}>
+        <nav style={{display:'flex', padding:'10px 10%' }}>
             <StyledLink  to='/'>Home</StyledLink>
             <StyledLink onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} to='#' style={{position:'relative'}}>
                 Company <img style={caretRot} width={10} src={caret} alt=''/>

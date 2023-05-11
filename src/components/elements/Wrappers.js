@@ -1,9 +1,6 @@
 import styled from 'styled-components'
 
-
-
 export const Wrapper = styled.div`
-${console.log(props => props.fd)}
 display: ${props => props.display };
 color: ${props => props.color || '#222222'};
 width: ${props => props.width || '100%'};
@@ -14,6 +11,11 @@ flex-direction: ${props => props.fd };
 position: ${props => props.pos};
 top: ${props => props.top};
 left: ${props => props.left};
+`
+
+export const Section = styled(Wrapper)`
 
 `
+
+
 

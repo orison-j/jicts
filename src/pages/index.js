@@ -2,6 +2,8 @@ import * as React from "react"
 import Hero from "../components/hero_banner/Hero"
 import { Heading } from "../components/elements/Headings"
 import { Button } from "../components/elements/Buttons"
+import Navigation from '../components/navbar/Navigation';
+import { Section } from "../components/elements/Wrappers";
 
 const IndexPage = () => {
   console.log(Heading.xl)
@@ -14,13 +16,16 @@ const IndexPage = () => {
         height='100vh'
         color='#eeeeee'
       >
+        <Navigation pos="absolute" />
         <Heading.l 
         width='70%'
         align='center'
         bold
         >Empowering Your Business to Succeed with  Tech-Driven Solutions</Heading.l>
-        <Button>About Us</Button>
+        <Button inverted>About Us</Button>
       </Hero>
+      <Section>
+      </Section>
     </main>
   )
 }

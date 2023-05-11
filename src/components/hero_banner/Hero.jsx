@@ -1,12 +1,10 @@
 import React from 'react'
-import { Wrapper } from '../elements/Wrapper'
+import { Wrapper } from '../elements/Wrappers'
 import HeroImage from '../../images/home-hero.png'
-import Navigation from '../navbar/Navigation';
 
 function Hero (props) {
   return (
     <Wrapper {...props} css={styles}>
-      <Navigation pos="absolute" />
       {props.children}
     </Wrapper>
   )
