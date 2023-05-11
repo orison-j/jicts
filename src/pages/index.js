@@ -11,7 +11,7 @@ const IndexPage = () => {
         p = '2rem 0'
         display='flex' 
         fd='column' 
-        height='600px'
+        height='100vh'
         color='#eeeeee'
       >
         <Heading.l 

@@ -10,7 +10,7 @@ export const Heading = {
         font-weight: ${props => props.bold ? 700 : null};
     `,
     l: styled.p`
-        font-size: ${props => props.fsize || "3.5rem"};
+        font-size: clamp(1rem, ${props => props.fsize || "4.5vw"}, 5rem);
         width: ${props => props.width};
         color: ${props => props.color};
         text-align: ${props => props.align};

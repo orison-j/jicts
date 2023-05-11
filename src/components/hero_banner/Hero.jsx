@@ -1,11 +1,11 @@
 import React from 'react'
 import { Wrapper } from '../elements/Wrapper'
 import HeroImage from '../../images/home-hero.png'
-import Navigation from '../navigation/Navigation';
+import Navigation from '../navbar/Navigation';
 
 function Hero (props) {
   return (
-    <Wrapper {...props} style={styles}>
+    <Wrapper {...props} css={styles}>
       <Navigation pos="absolute" />
       {props.children}
     </Wrapper>
@@ -14,12 +14,12 @@ function Hero (props) {
 
 export default Hero
 
-const styles = {
-    position: 'relative',
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundImage: `url(${HeroImage})`,
-    backgroundSize: '100%',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center bottom',
-  }
+const styles = `
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-image: url(${HeroImage});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+`
