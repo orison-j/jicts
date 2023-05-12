@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Heading = {
+export const Text = {
     xl: styled.p`
         font-size: ${props => props.fsize || "5rem"};
         width: ${props => props.width};

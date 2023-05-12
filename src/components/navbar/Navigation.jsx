@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 import Logo from '../../images/logo.png'
 import caret from '../../images/caretIcon.png'
-import { Wrapper } from '../elements/Wrappers'
+import { Wrapper } from '../elements/StyledWrappers'
 
 
 const Navigation = props => {
@@ -23,7 +23,7 @@ const Navigation = props => {
         transform: showSubMenu && 'scaleY(-1)',
         }
   return (
-    <Wrapper as='navigation' p='20px 0' width = '100%' display='flex' style={navStyles} {...props}>
+    <Wrapper p='20px 0' width = '100%' display='flex' style={navStyles} {...props}>
         <div style={{display: 'flex', justifyContent:'flex-end', width: '20%', padding:'10px' }}>
             <img
                 src = {Logo}

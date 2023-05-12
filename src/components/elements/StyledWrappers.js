@@ -2,6 +2,9 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
 display: ${props => props.display };
+${({display}) => display === 'flex' && `
+flex-wrap: wrap;
+`}
 color: ${props => props.color || '#222222'};
 width: ${props => props.width || '100%'};
 height: ${props => props.height };

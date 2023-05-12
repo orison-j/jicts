@@ -1,5 +1,5 @@
 import React from 'react'
-import { Wrapper } from '../elements/Wrappers'
+import { Wrapper } from '../elements/StyledWrappers'
 import HeroImage from '../../images/home-hero.png'
 
 function Hero (props) {
