@@ -6,10 +6,11 @@ export const Button = styled(Link)`
     color: #FF3D00;
     font-size: 1em;
     padding: 1.25rem 1.5rem;
-    border-radius: 15px;
+    border-radius: ${({round}) => round || '15px'};
     border-width: 0;
     text-decoration: none;
     border-color: transparent;
+    width: ${({width}) => width || 'fit-content'};
         &:hover {
             cursor: pointer;
             background-color: #FF3D00;
@@ -21,7 +22,6 @@ ${({inverted}) => inverted && `
     color: #fff;
     font-size: 1em;
     padding: 1.25rem 1.5rem;
-    border-radius: 15px;
     border:1px solid #FF3D00;
     text-decoration: none;
         &:hover {
@@ -37,13 +37,12 @@ color: #FFF;
 background-color: #FF3D00;
 font-size: 1em;
 padding: 1.25rem 1.5rem;
-border-radius: 15px;
 border-color: transparent;
 text-decoration: none;
   &:hover {
       cursor: pointer;
-      background-color: #FF3D00AA;
-      color: #fff;
+      background-color: #FF0A00;
+      color: ;
     } `
 }
 
@@ -52,7 +51,6 @@ ${({dark}) => dark && `
     color: #fff;
     font-size: 1em;
     padding: 1.25rem 1.5rem;
-    border-radius: 15px;
     border:1px solid grey;
     text-decoration:none;
         &:hover {
@@ -65,15 +63,16 @@ ${({dark}) => dark && `
 }
 
 ${({small}) => small && `
-    width: 50%
+    width: 60%
     height:auto;
     padding: 8px;
-    font-size: clamp(.8rem, .8vw, 1.2rem);
+    font-size: clamp(.5rem, .8vw, 1rem);
     }  `
 }
 
 ${({large}) => large && `
     width: clamp(20%, 25%, 30%);
+    padding: 1rem;
     }  `
 }
 `

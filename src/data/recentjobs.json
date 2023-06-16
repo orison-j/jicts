@@ -1,0 +1,31 @@
+[
+    {
+        "idx": "1",
+        "img": "",
+        "name": "Tariah Graphics Brand",
+        "techs": [
+            {
+                "name": "wordpress",
+                "logo": "../images/jobs/websites/logos/wordpress-color.png"
+            }
+        ],
+        "type": "Design and Branding Website",
+        "status": "completed",
+        "link": "https://tariahgraphicsbrand.com"
+    },
+
+    {
+        "idx": "2",
+        "img": "../images/jobs/websites/gwiga.png",
+        "name": "GWIGA",
+        "techs": [
+            {
+                "name": "wordpress",
+                "logo": "../images/jobs/websites/logos/wordpress-color.png"
+            }
+        ],
+        "type": "Religious Website",
+        "status": "completed",
+        "link": "https://gwiga.org"
+    }
+]

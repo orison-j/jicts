@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add gatsby-transformer-json
+
+PATH: 
+  C:\Users\obuye\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\obuye\bin;C:\Python311\Scripts;C:\Python311;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Users\obuye\AppData\Local\Microsoft\WindowsApps;C:\Users\obuye\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\obuye\AppData\Local\Yarn\bin;C:\Users\obuye\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'F:\DevOps\Node Apps\React\jehori\jicts\node_modules\@parcel\cache\node_modules\@lmdb\lmdb-win32-x64\node.abi108.node'
+
+npm manifest: 
+  {
+    "name": "jehori_ict_services",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Software Development/Engineering, Computer Network and Surveillance Installations and Training Services",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean"
+    },
+    "dependencies": {
+      "@mdx-js/react": "^2.3.0",
+      "babel-plugin-styled-components": "^2.1.1",
+      "gatsby": "^5.9.0",
+      "gatsby-plugin-image": "^3.9.0",
+      "gatsby-plugin-manifest": "^5.9.0",
+      "gatsby-plugin-mdx": "^5.9.0",
+      "gatsby-plugin-sharp": "^5.9.0",
+      "gatsby-plugin-sitemap": "^6.9.0",
+      "gatsby-plugin-styled-components": "^6.9.0",
+      "gatsby-source-filesystem": "^5.9.0",
+      "gatsby-transformer-sharp": "^5.9.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "sass": "^1.62.1",
+      "styled-components": "^5.3.10"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,20 @@
+[
+    {
+        "idx": 1,
+        "img": "../images/testifiers/person1.avif",
+        "Name": "Elvis Doen",
+        "Testimony": "Magna nulla mollit officia culpa laborum duis ullamco anim. Et exercitation adipisicing cupidatat velit non do minim ipsum minim consectetur cillum."
+    },
+    {
+        "idx": 2,
+        "img": "../images/testifiers/person2.avif",
+        "Name": "Kilba Dan",
+        "Testimony": "Magna nulla mollit officia culpa laborum duis ullamco anim. Enim non elit tempor eiusmod mollit laboris nulla incididunt id consectetur eu ullamco occaecat. Aliquip officia minim magna esse aliquip culpa dolor occaecat."
+    },
+    {
+        "idx": 3,
+        "img": "../images/testifiers/person3.jpg",
+        "Name": "Denis Regos",
+        "Testimony": "Magna commodo esse fugiat ex enim consectetur sit et. Consectetur qui sunt magna enim. Aliquip exercitation nisi quis tempor consectetur aliquip id cupidatat laboris. Et exercitation adipisicing cupidatat velit non do minim ipsum minim consectetur cillum. "
+    }
+]

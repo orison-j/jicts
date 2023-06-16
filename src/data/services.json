@@ -1,0 +1,45 @@
+[
+    {
+        "idx": 1,
+        "img": "../images/index_services/websiteDesign.avif",
+        "title": "Website Design",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris",
+        "link": "/projects/website-designs"
+    },
+
+    {
+        "idx": 2,
+        "img": "../images/index_services/softwareDevelopment.avif",
+        "title": "Software Developer",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris",
+        "link": "/projects/software-development"
+    },
+    {
+        "idx": 3,
+        "img": "../images/index_services/appDevelopment.avif",
+        "title": "Mobile App Development",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris",
+        "link": "/projects/mobile-apps"
+    },
+    {
+        "idx": 4,
+        "img": "../images/index_services/computerNetworking.avif",
+        "title": "Computer Networking",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris",
+        "link": "/projects/network"
+    },
+    {
+        "idx": 5,
+        "img": "../images/index_services/cctvInstallation.avif",
+        "title": "CCTV Installation",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris",
+        "link": "/projects/cctv-install"
+    },
+    {
+        "idx": 6,
+        "img": "../images/index_services/training.avif",
+        "title": "Training",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris",
+        "link": "/projects/trainings"
+    }
+]

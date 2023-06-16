@@ -32,7 +32,7 @@ const Navigation = props => {
                 height = {50}
             />
         </div>
-        <nav style={{display:'flex', padding:'10px 10%' }}>
+        <nav style={{display:'flex', padding:'10px 10%', color:'white' }}>
             <StyledLink  to='/'>Home</StyledLink>
             <StyledLink onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} to='#' style={{position:'relative'}}>
                 Company <img style={caretRot} width={10} src={caret} alt=''/>
@@ -62,7 +62,7 @@ export default Navigation
 const StyledLink = styled(Link)`
     padding: .8rem 1.2rem;
     text-decoration-line: none;
-    color: #fff;
+    /* color: #fff; */
     font-size: 1.2rem;
     text-transform: uppercase;
 `

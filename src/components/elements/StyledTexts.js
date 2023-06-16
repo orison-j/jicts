@@ -8,7 +8,9 @@ export const Text = {
         text-align: ${props => props.align};
         line-height: ${props => props.line};
         font-weight: ${props => props.bold ? 700 : null};
-    `,
+        ${({italize}) => italize && `font-style:italic`};
+        
+    ` ,
     l: styled.p`
         font-size: clamp(1rem, ${props => props.fsize || "4.5vw"}, 5rem);
         width: ${props => props.width};
@@ -16,6 +18,7 @@ export const Text = {
         text-align: ${props => props.align};
         line-height: ${props => props.line};
         font-weight: ${props => props.bold ? 700 : null};
+        ${({italize}) => italize && `font-style:italic`}
     `,
     md: styled.p`
         font-size: ${props => props.fsize || "2.5rem"};
@@ -24,6 +27,7 @@ export const Text = {
         text-align: ${props => props.align};
         line-height: ${props => props.line};
         font-weight: ${props => props.bold ? 700 : null};
+        ${({italize}) => italize && `font-style:italic`}
     `,
     sm: styled.p`
         font-size: ${props => props.fsize || "1.5rem"};
@@ -32,6 +36,7 @@ export const Text = {
         text-align: ${props => props.align};
         line-height: ${props => props.line};
         font-weight: ${props => props.bold ? 700 : null};
+        ${({italize}) => italize && `font-style:italic`}
     `,
     xsm: styled.p`
         font-size: ${props => props.fsize || ".8rem"};
@@ -40,5 +45,6 @@ export const Text = {
         text-align: ${props => props.align};
         line-height: ${props => props.line};
         font-weight: ${props => props.bold ? 700 : null};
+        ${({italize}) => italize && `font-style:italic`}
     `
 }
