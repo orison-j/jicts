@@ -34,6 +34,7 @@ const Services = () => {
             background-position: center bottom;
         `}
         >
+            <Navigation linkColor="rgb(25, 25, 55)" pos="absolute" color="#ff5a00" />
             <Wrapper p="0">
                 <Text.xl> Services </Text.xl>
                 <Text.sm> lorem ipsum </Text.sm>
@@ -42,7 +43,7 @@ const Services = () => {
             <Wrapper>
                 <img src={ImageSrc} alt='services banner image' width={700} />
             </Wrapper>
-            <Navigation pos="absolute" color="#ff5a00" />
+            
         </Hero>
         <Section>
             <Container flex pd='50px 150px'>

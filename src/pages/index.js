@@ -21,7 +21,7 @@ import { useStaticQuery, graphql  } from 'gatsby'
 
 const IndexPage = () => {
 // console.log("bgm: ", BgImage)
-  const testimonies = true
+  const testimonies = false
   return (
     <main>
       <Hero 
@@ -40,7 +40,7 @@ const IndexPage = () => {
             background-position: center bottom;
         `}
       >
-        <Navigation pos="absolute" />
+        <Navigation pos="absolute" linkColor="white" subLinkColor="#111"/>
         <Text.l 
         width='70%'
         align='center'

@@ -33,24 +33,24 @@ const Navigation = props => {
             />
         </div>
         <nav style={{display:'flex', padding:'10px 10%', color:'white' }}>
-            <StyledLink  to='/'>Home</StyledLink>
-            <StyledLink onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} to='#' style={{position:'relative'}}>
+            <StyledLink color={props.linkColor}  to='/'>Home</StyledLink>
+            <StyledLink color={props.linkColor} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} to='#' style={{position:'relative'}}>
                 Company <img style={caretRot} width={10} src={caret} alt=''/>
                 {
                     showSubMenu &&
                     (
                         <SubLinksContainer style={{display:'flex', flexDirection:'column'}}>
-                            <SubLinks to='/about-us'>About Us</SubLinks>
-                            <SubLinks to='/projects'>Projects</SubLinks>
-                            <SubLinks to='/values'>Values</SubLinks>
+                            <SubLinks color={props.subLinkColor} to='/about-us'>About Us</SubLinks>
+                            <SubLinks color={props.subLlinkColor} to='/projects'>Projects</SubLinks>
+                            <SubLinks color={props.subLinkColor} to='/values'>Values</SubLinks>
                         </SubLinksContainer>
                     )
                 }
                 
             </StyledLink>
-            <StyledLink to='/services'>Services</StyledLink>
-            <StyledLink to='/blog'>Blog</StyledLink>
-            <StyledLink to='/contacts'>Contact</StyledLink>
+            <StyledLink color={props.linkColor} to='/services'>Services</StyledLink>
+            <StyledLink color={props.linkColor} to='/blog'>Blog</StyledLink>
+            <StyledLink color={props.linkColor} to='/contacts'>Contact</StyledLink>
         </nav>
     </Wrapper>
     
@@ -62,14 +62,14 @@ export default Navigation
 const StyledLink = styled(Link)`
     padding: .8rem 1.2rem;
     text-decoration-line: none;
-    /* color: #fff; */
+    color: ${props => props.color || '#111'};
     font-size: 1.2rem;
     text-transform: uppercase;
 `
 
 const SubLinksContainer = styled.div`
-    background-color: #111;
-    padding: 5px;
+    background-color: #fff;
+    overflow: hidden;
     margin: 5px;
     z-index: 1000;
     border-radius: 15px;
@@ -80,6 +80,18 @@ const SubLinksContainer = styled.div`
 `
 
 const SubLinks = styled(StyledLink)`
+    font-weight: thin;
+    color: ${props => props.color || '#111'};
+    &:nth-child(3n) {
+        &:hover {
+            background-color: #fff2f2;
+            border-bottom: none;
+        }
+    }
+    &:hover {
+            background-color: #fff2f2;
+            border-bottom: solid 1px #ff7c30;
+        }
 `
 
 const navStyles = {
