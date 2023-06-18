@@ -90,7 +90,7 @@ const Services = () => {
         <Section bgcolor="rgba(205, 48, 64, 0.25)">
             <Container mg="0" bgcolor="transparent" flex pd='50px 150px'>
                 <Wrapper display="flex" fd="column" css={css`justify-content: center`}>
-                    <Text.l>Software Development</Text.l>
+                    <Text.l>UI/UX Design</Text.l>
                     <Text.xsm fsize="1.2rem">Unlock the full potential of your business with out cutting edge software</Text.xsm>
                     <div> <Button round='5px' small orange >View Projects</Button> <Button round='5px' small orange> Request a Quote</Button></div>
                 </Wrapper>
@@ -109,7 +109,7 @@ const Services = () => {
                 </Wrapper>
 
                 <Wrapper display="flex" fd="column" css={css`justify-content: center`}>
-                    <Text.l>Software Development</Text.l>
+                    <Text.l>Mobile Apps Development</Text.l>
                     <Text.xsm fsize="1.2rem">Unlock the full potential of your business with out cutting edge software</Text.xsm>
                     <div> <Button round='5px' small orange >View Projects</Button> <Button round='5px' small orange> Request a Quote</Button></div>
                 </Wrapper>
@@ -119,7 +119,7 @@ const Services = () => {
         <Section bgcolor="#480FE8">
             <Container mg="0" bgcolor="transparent" flex pd='50px 150px'>
                 <Wrapper display="flex" fd="column" color='white' css={css`justify-content: center`}>
-                    <Text.l>Software Development</Text.l>
+                    <Text.l>Surveillance Camera Installations</Text.l>
                     <Text.xsm fsize="1.2rem">Unlock the full potential of your business with out cutting edge software</Text.xsm>
                     <div> <Button round='5px' small orange >View Projects</Button> <Button round='5px' small orange> Request a Quote</Button></div>
                 </Wrapper>
@@ -138,7 +138,7 @@ const Services = () => {
                 </Wrapper>
 
                 <Wrapper display="flex" fd="column" color='white' css={css`justify-content: center`}>
-                    <Text.l>Software Development</Text.l>
+                    <Text.l>Computer Network Installations</Text.l>
                     <Text.xsm fsize="1.2rem">Unlock the full potential of your business with out cutting edge software</Text.xsm>
                     <div> <Button round='5px' small orange >View Projects</Button> <Button round='5px' small orange> Request a Quote</Button></div>
                 </Wrapper>
