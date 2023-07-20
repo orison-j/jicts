@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 
 export const Button = styled(Link)`
+    margin: ${({mg}) => mg || "2rem"};
     color: #FF3D00;
     font-size: 1em;
     padding: 1.25rem 1.5rem;

@@ -7,11 +7,17 @@ const GlobalStyle = createGlobalStyle`
       src: url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
   }
 
+  @font-face {
+    font-family: "Cera Round Pro";
+    src: url("//db.onlinewebfonts.com/t/9d23cda2fd2a195a8467e0967debd4d3.eot"); 
+    src: url("//db.onlinewebfonts.com/t/9d23cda2fd2a195a8467e0967debd4d3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9d23cda2fd2a195a8467e0967debd4d3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9d23cda2fd2a195a8467e0967debd4d3.woff") format("woff"), url("//db.onlinewebfonts.com/t/9d23cda2fd2a195a8467e0967debd4d3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9d23cda2fd2a195a8467e0967debd4d3.svg#Cera Round Pro") format("svg"); 
+  }
+
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'LatoFont', sans-serif;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: relative;
     offset: 0;
     user-select: none;
@@ -25,6 +31,11 @@ const GlobalStyle = createGlobalStyle`
   p {
     padding: 10px;
     font-size: 1.2rem;
+    font-family: 'LatoFont'
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cera Round Pro';
   }
 
   main {

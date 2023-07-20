@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Text = {
-    xl: styled.p`
+    xl: styled.h1`
         font-size: ${props => props.fsize || "5rem"};
         width: ${props => props.width};
         color: ${props => props.color};
@@ -11,7 +11,7 @@ export const Text = {
         ${({italize}) => italize && `font-style:italic`};
         
     ` ,
-    l: styled.p`
+    l: styled.h2`
         font-size: clamp(1rem, ${props => props.fsize || "4.5vw"}, 5rem);
         width: ${props => props.width};
         color: ${props => props.color};
@@ -20,7 +20,7 @@ export const Text = {
         font-weight: ${props => props.bold ? 700 : null};
         ${({italize}) => italize && `font-style:italic`}
     `,
-    md: styled.p`
+    md: styled.h3`
         font-size: ${props => props.fsize || "2.5rem"};
         width: ${props => props.width};
         color: ${props => props.color};
